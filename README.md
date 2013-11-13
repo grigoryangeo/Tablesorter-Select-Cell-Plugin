@@ -15,7 +15,7 @@ Usage:
     1. Simply add the "selectCell" widget to the tablesorter() call as follows:
         $('#myElem').tablesorter({ widgets: ['selectCell'] , widgetSelectCell: ["num","active"]});
 
-    2. Add the class "static" to any and all rows that you wish to be unsortable.
+    2. Add the class "data-num" to  <th>.
 
     That's it!
 
